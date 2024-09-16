@@ -1,5 +1,8 @@
 package com.timeshipmodding.electrified;
 
+import com.timeshipmodding.electrified.content.blocks.registries.ModBlocks;
+import com.timeshipmodding.electrified.content.creativetab.MaterialsTab;
+import com.timeshipmodding.electrified.content.item.registries.ModItems;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -42,6 +45,11 @@ public class Electrified
 
     public Electrified(IEventBus modEventBus, ModContainer modContainer)
     {
+        // Register registry classes
+        ModBlocks.BLOCKS.register(modEventBus);
+        ModItems.ITEMS.register(modEventBus);
 
+        // Register creative mode tab
+        MaterialsTab.CREATIVE_MODE_TABS.register(modEventBus);
     }
 }

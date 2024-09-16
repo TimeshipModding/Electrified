@@ -1,2 +1,13 @@
 {
+  "creativemodetab.electrified.materials_tab": "Electrified: Materials",
+
+  "block.electrified.aluminium_block": "Block of Aluminium",
+  "block.electrified.steel_block": "Block of Steel",
+  "block.electrified.bauxite_ore": "Bauxite Ore",
+  "block.electrified.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
+  "block.electrified.raw_aluminium_block": "Block of Raw Aluminium",
+
+  "item.electrified.aluminium_ingot": "Aluminium Ingot",
+  "item.electrified.steel_ingot": "Steel Ingot",
+  "item.electrified.raw_aluminium": "Raw Aluminium"
 }
