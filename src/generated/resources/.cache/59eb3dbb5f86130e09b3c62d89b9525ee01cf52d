@@ -1,6 +1,10 @@
-// 1.21.1	2024-09-16T19:21:14.6085292	Loot Tables
+// 1.21.1	2024-09-17T14:06:59.8599842	Loot Tables
 77cbf40ae9ab5ba79ced65967d481cf341090111 data/electrified/loot_table/blocks/aluminium_block.json
 024277b4a412d78ed60c9ba362b695dc7ae37325 data/electrified/loot_table/blocks/bauxite_ore.json
 c3b2d3da6411375ffd995f559316727aac918430 data/electrified/loot_table/blocks/deepslate_bauxite_ore.json
+741539801ab2769515cea0f80f9c0eee625639c1 data/electrified/loot_table/blocks/deepslate_nickel_ore.json
+44958e7265a64d40b357d3ba780ca95923d96943 data/electrified/loot_table/blocks/nickel_block.json
+2730486ca343046b545b6712b0b9efa9b6f78f6a data/electrified/loot_table/blocks/nickel_ore.json
 7b0e4ac4782b715fe739683a609c83075a985d23 data/electrified/loot_table/blocks/raw_aluminium_block.json
+eb0c2ed665c45372b918feb2a3da709c4d4e671c data/electrified/loot_table/blocks/raw_nickel_block.json
 9e98d46dc6e1c910dd503e0b7257f5ce7a5d0325 data/electrified/loot_table/blocks/steel_block.json

@@ -23,6 +23,13 @@ public class DataBlockStates extends BlockStateProvider {
         blockWithItem(STEEL_BLOCK);
         blockWithItem(BAUXITE_ORE);
         blockWithItem(DEEPSLATE_BAUXITE_ORE);
+        blockWithItem(RAW_NICKEL_BLOCK);
+        blockWithItem(NICKEL_BLOCK);
+        blockWithItem(NICKEL_ORE);
+        blockWithItem(DEEPSLATE_NICKEL_ORE);
+        blockWithItem(SILICON_BLOCK);
+        blockWithItem(SILICON_ORE);
+        blockWithItem(DEEPSLATE_SILICON_ORE);
     }
 
     // Generate Methods

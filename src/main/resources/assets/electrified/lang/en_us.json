@@ -3,11 +3,21 @@
 
   "block.electrified.aluminium_block": "Block of Aluminium",
   "block.electrified.steel_block": "Block of Steel",
+  "block.electrified.nickel_block": "Block of Nickel",
   "block.electrified.bauxite_ore": "Bauxite Ore",
   "block.electrified.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
+  "block.electrified.nickel_ore": "Nickel Ore",
+  "block.electrified.deepslate_nickel_ore": "Deepslate Nickel Ore",
   "block.electrified.raw_aluminium_block": "Block of Raw Aluminium",
+  "block.electrified.raw_nickel_block": "Block of Raw Nickel",
+  "block.electrified.silicon_block": "Block of Silicon",
+  "block.electrified.silicon_ore": "Silicon Ore",
+  "block.electrified.deepslate_silicon_ore": "Deepslate Silicon Ore",
 
   "item.electrified.aluminium_ingot": "Aluminium Ingot",
   "item.electrified.steel_ingot": "Steel Ingot",
-  "item.electrified.raw_aluminium": "Raw Aluminium"
+  "item.electrified.nickel_ingot": "Nickel Ingot",
+  "item.electrified.raw_aluminium": "Raw Aluminium",
+  "item.electrified.raw_nickel": "Raw Nickel",
+  "item.electrified.silicon": "Silicon"
 }
