@@ -1,0 +1,12 @@
+{
+  "values": [
+    "electrified:steel_block",
+    "electrified:raw_nickel_block",
+    "electrified:nickel_block",
+    "electrified:nickel_ore",
+    "electrified:deepslate_nickel_ore",
+    "electrified:silicon_block",
+    "electrified:silicon_ore",
+    "electrified:deepslate_silicon_ore"
+  ]
+}

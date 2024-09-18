@@ -1,6 +1,7 @@
-// 1.21.1	2024-09-17T14:06:59.8645582	Item Models: electrified
+// 1.21.1	2024-09-18T10:08:48.0953959	Item Models: electrified
 641bbeea03500d0e48804869043c55ee05620ce9 assets/electrified/models/item/aluminium_ingot.json
 3791a34a3cf0187178d7a2db576db5910a91bf7b assets/electrified/models/item/nickel_ingot.json
 82823cf581a6077b87740a3a1a983a868118f6ec assets/electrified/models/item/raw_aluminium.json
 135e5a096017069bd13de29fbcc0f53f9d2c930b assets/electrified/models/item/raw_nickel.json
+844fc305bba095a27c45e5c6a6b33889b8a86120 assets/electrified/models/item/silicon.json
 ea02890fe395bf6b92e03da6eeb20a7e77a5374f assets/electrified/models/item/steel_ingot.json

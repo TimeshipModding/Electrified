@@ -56,6 +56,12 @@ public class DataRecipes extends RecipeProvider implements IConditionBuilder {
                 .pattern("BBB")
                 .define('B', RAW_NICKEL.get())
                 .unlockedBy("has_raw_aluminium", has(RAW_NICKEL.get())).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, SILICON_BLOCK.get())
+                .pattern("BBB")
+                .pattern("BBB")
+                .pattern("BBB")
+                .define('B', SILICON.get())
+                .unlockedBy("has_silicon", has(SILICON.get())).save(recipeOutput);
 
         // Shapeless Recipes
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ALUMINIUM_INGOT.get(), 9).requires(ALUMINIUM_BLOCK.get()).unlockedBy("has_aluminium_block", has(ALUMINIUM_BLOCK.get())).save(recipeOutput);

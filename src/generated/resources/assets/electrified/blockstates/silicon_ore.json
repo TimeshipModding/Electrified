@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "electrified:block/silicon_ore"
+    }
+  }
+}
