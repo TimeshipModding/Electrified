@@ -33,8 +33,8 @@ public class MaterialsTab {
                 pOutput.accept(RAW_NICKEL_BLOCK);
                 pOutput.accept(RAW_ALUMINIUM);
                 pOutput.accept(RAW_NICKEL);
-                pOutput.accept(ALUMINIUM_INGOT);
                 pOutput.accept(SILICON);
+                pOutput.accept(ALUMINIUM_INGOT);
                 pOutput.accept(NICKEL_INGOT);
                 pOutput.accept(STEEL_INGOT);
             }).build());
