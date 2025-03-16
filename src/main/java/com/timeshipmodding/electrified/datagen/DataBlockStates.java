@@ -8,7 +8,7 @@ import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;
 import net.neoforged.neoforge.registries.DeferredBlock;
 
-import static com.timeshipmodding.electrified.content.blocks.registries.ModBlocks.*;
+import static com.timeshipmodding.electrified.content.block.registries.ModBlocks.*;
 
 public class DataBlockStates extends BlockStateProvider {
     public DataBlockStates(PackOutput output, ExistingFileHelper existingFileHelper) {

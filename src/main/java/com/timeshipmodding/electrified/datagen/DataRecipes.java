@@ -12,7 +12,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 import static com.timeshipmodding.electrified.content.item.registries.ModItems.*;
-import static com.timeshipmodding.electrified.content.blocks.registries.ModBlocks.*;
+import static com.timeshipmodding.electrified.content.block.registries.ModBlocks.*;
 
 public class DataRecipes extends RecipeProvider implements IConditionBuilder {
     public DataRecipes(PackOutput packOutput, CompletableFuture<HolderLookup.Provider> pRegistries) {

@@ -1,6 +1,6 @@
 package com.timeshipmodding.electrified.datagen.loot;
 
-import com.timeshipmodding.electrified.content.blocks.registries.ModBlocks;
+import com.timeshipmodding.electrified.content.block.registries.ModBlocks;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
@@ -19,7 +19,7 @@ import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import java.util.Set;
 
 import static com.timeshipmodding.electrified.content.item.registries.ModItems.*;
-import static com.timeshipmodding.electrified.content.blocks.registries.ModBlocks.*;
+import static com.timeshipmodding.electrified.content.block.registries.ModBlocks.*;
 
 public class DataBlockLootTables extends BlockLootSubProvider {
     public DataBlockLootTables(HolderLookup.Provider provider) {

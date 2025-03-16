@@ -10,7 +10,7 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-import static com.timeshipmodding.electrified.content.blocks.registries.ModBlocks.*;
+import static com.timeshipmodding.electrified.content.block.registries.ModBlocks.*;
 
 public class DataBlockTags extends BlockTagsProvider {
     public DataBlockTags(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {

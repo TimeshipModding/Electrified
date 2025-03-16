@@ -10,7 +10,7 @@ import net.neoforged.neoforge.registries.DeferredHolder;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import static com.timeshipmodding.electrified.content.item.registries.ModItems.*;
-import static com.timeshipmodding.electrified.content.blocks.registries.ModBlocks.*;
+import static com.timeshipmodding.electrified.content.block.registries.ModBlocks.*;
 
 public class MaterialsTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Electrified.MODID);

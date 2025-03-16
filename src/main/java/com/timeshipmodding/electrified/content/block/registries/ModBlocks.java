@@ -1,4 +1,4 @@
-package com.timeshipmodding.electrified.content.blocks.registries;
+package com.timeshipmodding.electrified.content.block.registries;
 
 import com.timeshipmodding.electrified.Electrified;
 import com.timeshipmodding.electrified.content.item.registries.ModItems;
