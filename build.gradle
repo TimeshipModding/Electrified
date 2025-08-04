@@ -1,7 +1,8 @@
 plugins {
     id 'java-library'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '2.0.72'
+    id 'net.neoforged.moddev' version '2.0.105'
+    id 'idea'
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -12,8 +13,6 @@ version = "${minecraft_version}${version_suffix}${mod_version}"
 group = mod_group_id
 
 repositories {
-    mavenLocal()
-
     // JEI Maven
     maven {
         name = "Jared's maven"
