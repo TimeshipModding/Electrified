@@ -6,6 +6,7 @@ import com.timeshipmodding.electrified.datagen.DataItemModels;
 import com.timeshipmodding.electrified.datagen.DataRecipes;
 import com.timeshipmodding.electrified.datagen.loot.DataBlockLootTables;
 import com.timeshipmodding.electrified.datagen.tags.DataBlockTags;
+import com.timeshipmodding.electrified.datagen.tags.DataFluidTags;
 import com.timeshipmodding.electrified.datagen.tags.DataItemTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.DataGenerator;
@@ -32,6 +33,7 @@ public class DataGeneration {
         CompletableFuture<HolderLookup.Provider> lookupProvider = event.getLookupProvider();
 
         generator.addProvider(event.includeServer(), new DataRecipes(packOutput, lookupProvider));
+        generator.addProvider(event.includeServer(), new DataFluidTags(packOutput, lookupProvider, existingFileHelper));
         //generator.addProvider(event.includeServer(), new DataWorldgen(packOutput, lookupProvider));
         generator.addProvider(event.includeServer(), new LootTableProvider(packOutput, Collections.emptySet(),
                 List.of(new LootTableProvider.SubProviderEntry(DataBlockLootTables::new, LootContextParamSets.BLOCK)), lookupProvider));
@@ -42,6 +44,5 @@ public class DataGeneration {
 
         generator.addProvider(event.includeClient(), new DataBlockStates(packOutput, existingFileHelper));
         generator.addProvider(event.includeClient(), new DataItemModels(packOutput, existingFileHelper));
-
     }
 }

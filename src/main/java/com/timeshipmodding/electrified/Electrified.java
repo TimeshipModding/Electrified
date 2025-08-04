@@ -2,6 +2,8 @@ package com.timeshipmodding.electrified;
 
 import com.timeshipmodding.electrified.content.block.registries.ModBlocks;
 import com.timeshipmodding.electrified.content.creativetab.MaterialsTab;
+import com.timeshipmodding.electrified.content.fluid.registries.ModFluidTypes;
+import com.timeshipmodding.electrified.content.fluid.registries.ModFluids;
 import com.timeshipmodding.electrified.content.item.registries.ModItems;
 import org.slf4j.Logger;
 
@@ -17,11 +19,12 @@ public class Electrified
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MODID = "electrified";
 
-    public Electrified(IEventBus modEventBus, ModContainer modContainer)
-    {
+    public Electrified(IEventBus modEventBus, ModContainer modContainer) {
         // Register registry classes
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
+        ModFluidTypes.FLUID_TYPES.register(modEventBus);
+        ModFluids.FLUIDS.register(modEventBus);
 
         // Register creative mode tab
         MaterialsTab.CREATIVE_MODE_TABS.register(modEventBus);

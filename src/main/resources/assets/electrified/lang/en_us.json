@@ -1,5 +1,5 @@
 {
-  "creativemodetab.electrified.materials_tab": "Electrified: Materials",
+  "creativemodetab.electrified.materials_tab": "Electrified: Materials and Components ",
 
   "block.electrified.aluminium_block": "Block of Aluminium",
   "block.electrified.steel_block": "Block of Steel",
@@ -19,5 +19,6 @@
   "item.electrified.nickel_ingot": "Nickel Ingot",
   "item.electrified.raw_aluminium": "Raw Aluminium",
   "item.electrified.raw_nickel": "Raw Nickel",
-  "item.electrified.silicon": "Silicon Wafer"
+  "item.electrified.silicon": "Silicon Wafer",
+  "item.electrified.crude_oil_bucket": "Crude Oil Bucket"
 }

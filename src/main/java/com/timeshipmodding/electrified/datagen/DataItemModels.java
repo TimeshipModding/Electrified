@@ -21,5 +21,6 @@ public class DataItemModels extends ItemModelProvider {
         basicItem(RAW_NICKEL.get());
         basicItem(NICKEL_INGOT.get());
         basicItem(SILICON.get());
+        basicItem(CRUDE_OIL_BUCKET.get());
     }
 }
