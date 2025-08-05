@@ -24,25 +24,7 @@ public class DataBlockTags extends BlockTagsProvider {
                 .add(RAW_ALUMINIUM_BLOCK.get())
                 .add(ALUMINIUM_BLOCK.get())
                 .add(BAUXITE_ORE.get())
-                .add(DEEPSLATE_BAUXITE_ORE.get())
-                .add(STEEL_BLOCK.get())
-                .add(RAW_NICKEL_BLOCK.get())
-                .add(NICKEL_BLOCK.get())
-                .add(NICKEL_ORE.get())
-                .add(DEEPSLATE_NICKEL_ORE.get())
-                .add(SILICON_BLOCK.get())
-                .add(SILICON_ORE.get())
-                .add(DEEPSLATE_SILICON_ORE.get());
-
-        this.tag(BlockTags.NEEDS_IRON_TOOL)
-                .add(STEEL_BLOCK.get())
-                .add(RAW_NICKEL_BLOCK.get())
-                .add(NICKEL_BLOCK.get())
-                .add(NICKEL_ORE.get())
-                .add(DEEPSLATE_NICKEL_ORE.get())
-                .add(SILICON_BLOCK.get())
-                .add(SILICON_ORE.get())
-                .add(DEEPSLATE_SILICON_ORE.get());
+                .add(DEEPSLATE_BAUXITE_ORE.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(RAW_ALUMINIUM_BLOCK.get())

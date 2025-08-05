@@ -2,9 +2,12 @@ package com.timeshipmodding.electrified;
 
 import com.timeshipmodding.electrified.content.block.registries.ModBlocks;
 import com.timeshipmodding.electrified.content.creativetab.MaterialsTab;
-import com.timeshipmodding.electrified.content.fluid.registries.ModFluidTypes;
-import com.timeshipmodding.electrified.content.fluid.registries.ModFluids;
 import com.timeshipmodding.electrified.content.item.registries.ModItems;
+import com.tterrag.registrate.Registrate;
+import net.createmod.catnip.lang.FontHelper;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.CreativeModeTab;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -16,15 +19,14 @@ import net.neoforged.fml.common.Mod;
 @Mod(Electrified.MODID)
 public class Electrified
 {
-    private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MODID = "electrified";
+    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Registrate REGISTRATE = Registrate.create(MODID);
 
     public Electrified(IEventBus modEventBus, ModContainer modContainer) {
         // Register registry classes
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
-        ModFluidTypes.FLUID_TYPES.register(modEventBus);
-        ModFluids.FLUIDS.register(modEventBus);
 
         // Register creative mode tab
         MaterialsTab.CREATIVE_MODE_TABS.register(modEventBus);

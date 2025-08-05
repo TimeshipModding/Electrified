@@ -15,12 +15,7 @@ public class DataItemModels extends ItemModelProvider {
     @Override
     protected void registerModels() {
         // Items
-        basicItem(STEEL_INGOT.get());
         basicItem(RAW_ALUMINIUM.get());
         basicItem(ALUMINIUM_INGOT.get());
-        basicItem(RAW_NICKEL.get());
-        basicItem(NICKEL_INGOT.get());
-        basicItem(SILICON.get());
-        basicItem(CRUDE_OIL_BUCKET.get());
     }
 }

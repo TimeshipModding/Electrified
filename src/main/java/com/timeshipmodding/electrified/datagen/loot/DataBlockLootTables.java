@@ -29,20 +29,12 @@ public class DataBlockLootTables extends BlockLootSubProvider {
     @Override
     protected void generate() {
         // Drop Self
-        dropSelf(STEEL_BLOCK.get());
         dropSelf(RAW_ALUMINIUM_BLOCK.get());
         dropSelf(ALUMINIUM_BLOCK.get());
-        dropSelf(RAW_NICKEL_BLOCK.get());
-        dropSelf(NICKEL_BLOCK.get());
-        dropSelf(SILICON_BLOCK.get());
 
         // Ore Drops
         this.add(BAUXITE_ORE.get(), block -> createOreDrop(BAUXITE_ORE.get(), RAW_ALUMINIUM.get()));
         this.add(DEEPSLATE_BAUXITE_ORE.get(), block -> createOreDrop(DEEPSLATE_BAUXITE_ORE.get(), RAW_ALUMINIUM.get()));
-        this.add(NICKEL_ORE.get(), block -> createOreDrop(NICKEL_ORE.get(), RAW_NICKEL.get()));
-        this.add(DEEPSLATE_NICKEL_ORE.get(), block -> createOreDrop(DEEPSLATE_NICKEL_ORE.get(), RAW_NICKEL.get()));
-        this.add(SILICON_ORE.get(), block -> createMultipleOreDrops(SILICON_ORE.get(), SILICON.get(), 3, 5));
-        this.add(DEEPSLATE_SILICON_ORE.get(), block -> createMultipleOreDrops(DEEPSLATE_SILICON_ORE.get(), SILICON.get(), 3, 5));
     }
 
     // Generate Methods

@@ -20,23 +20,11 @@ public class MaterialsTab {
             .icon(() -> new ItemStack(ModItems.ALUMINIUM_INGOT.get()))
             .displayItems((parameters, pOutput) -> {
                 pOutput.accept(ALUMINIUM_BLOCK);
-                pOutput.accept(SILICON_BLOCK);
-                pOutput.accept(NICKEL_BLOCK);
-                pOutput.accept(STEEL_BLOCK);
                 pOutput.accept(BAUXITE_ORE);
                 pOutput.accept(DEEPSLATE_BAUXITE_ORE);
-                pOutput.accept(SILICON_ORE);
-                pOutput.accept(DEEPSLATE_SILICON_ORE);
-                pOutput.accept(NICKEL_ORE);
-                pOutput.accept(DEEPSLATE_NICKEL_ORE);
                 pOutput.accept(RAW_ALUMINIUM_BLOCK);
-                pOutput.accept(RAW_NICKEL_BLOCK);
                 pOutput.accept(RAW_ALUMINIUM);
-                pOutput.accept(RAW_NICKEL);
-                pOutput.accept(SILICON);
                 pOutput.accept(ALUMINIUM_INGOT);
-                pOutput.accept(NICKEL_INGOT);
-                pOutput.accept(STEEL_INGOT);
             }).build());
 }
 
