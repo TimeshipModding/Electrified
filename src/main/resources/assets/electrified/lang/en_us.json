@@ -7,6 +7,13 @@
   "block.electrified.raw_aluminium_block": "Block of Raw Aluminium",
   "block.electrified.aluminium_frame": "Aluminium Frame",
   "block.electrified.copper_frame": "Copper Frame",
+  "block.electrified.exposed_copper_frame": "Exposed Copper Frame",
+  "block.electrified.weathered_copper_frame": "Weathered Copper Frame",
+  "block.electrified.oxidized_copper_frame": "Oxidized Copper Frame",
+  "block.electrified.waxed_copper_frame": "Waxed Copper Frame",
+  "block.electrified.waxed_exposed_copper_frame": "Waxed Exposed Copper Frame",
+  "block.electrified.waxed_weathered_copper_frame": "Waxed Weathered Copper Frame",
+  "block.electrified.waxed_oxidized_copper_frame": "Waxed Oxidized Copper Frame",
 
   "item.electrified.aluminium_ingot": "Aluminium Ingot",
   "item.electrified.raw_aluminium": "Raw Aluminium"

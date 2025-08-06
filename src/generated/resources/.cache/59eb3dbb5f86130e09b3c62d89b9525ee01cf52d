@@ -1,7 +1,14 @@
-// 1.21.1	2025-08-06T10:15:20.6117548	Loot Tables
+// 1.21.1	2025-08-06T14:22:24.7494087	Loot Tables
 77cbf40ae9ab5ba79ced65967d481cf341090111 data/electrified/loot_table/blocks/aluminium_block.json
 afee0e23c334552ad21c96f76b9b19cbbdcaf7a1 data/electrified/loot_table/blocks/aluminium_frame.json
 024277b4a412d78ed60c9ba362b695dc7ae37325 data/electrified/loot_table/blocks/bauxite_ore.json
 4ecca6354fee3fdd5b467dbe3086f4469304f184 data/electrified/loot_table/blocks/copper_frame.json
 c3b2d3da6411375ffd995f559316727aac918430 data/electrified/loot_table/blocks/deepslate_bauxite_ore.json
+6ad49d653a6ad020e860eb4ef94bd6887a69d291 data/electrified/loot_table/blocks/exposed_copper_frame.json
+1b19118012da36cb7d761bf2aef6d56bb4708a05 data/electrified/loot_table/blocks/oxidized_copper_frame.json
 7b0e4ac4782b715fe739683a609c83075a985d23 data/electrified/loot_table/blocks/raw_aluminium_block.json
+ce5237b58bac438558b8a4ed47b417dbf43f36f1 data/electrified/loot_table/blocks/waxed_copper_frame.json
+0ff1d7685dcb1e0bcd945916c56621848b53a9d6 data/electrified/loot_table/blocks/waxed_exposed_copper_frame.json
+9720ab02714171098ce31a7c45e91331f854218d data/electrified/loot_table/blocks/waxed_oxidized_copper_frame.json
+271441000e012919764c5455130fbf7202cd4727 data/electrified/loot_table/blocks/waxed_weathered_copper_frame.json
+408f9295bd0955d479aeddfeac1eb2b96634db6a data/electrified/loot_table/blocks/weathered_copper_frame.json

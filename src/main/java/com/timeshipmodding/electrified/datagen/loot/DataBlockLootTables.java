@@ -33,6 +33,13 @@ public class DataBlockLootTables extends BlockLootSubProvider {
         dropSelf(ALUMINIUM_BLOCK.get());
         dropSelf(ALUMINIUM_FRAME.get());
         dropSelf(COPPER_FRAME.get());
+        dropSelf(EXPOSED_COPPER_FRAME.get());
+        dropSelf(WEATHERED_COPPER_FRAME.get());
+        dropSelf(OXIDIZED_COPPER_FRAME.get());
+        dropSelf(WAXED_COPPER_FRAME.get());
+        dropSelf(WAXED_EXPOSED_COPPER_FRAME.get());
+        dropSelf(WAXED_WEATHERED_COPPER_FRAME.get());
+        dropSelf(WAXED_OXIDIZED_COPPER_FRAME.get());
 
         // Ore Drops
         this.add(BAUXITE_ORE.get(), block -> createOreDrop(BAUXITE_ORE.get(), RAW_ALUMINIUM.get()));

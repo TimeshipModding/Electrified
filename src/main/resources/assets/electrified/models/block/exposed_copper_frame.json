@@ -2,8 +2,8 @@
 	"format_version": "1.21.6",
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "electrified:block/aluminium_block",
-		"particle": "electrified:block/aluminium_block"
+		"1": "minecraft:block/exposed_copper",
+		"particle": "minecraft:block/exposed_copper"
 	},
 	"elements": [
 		{

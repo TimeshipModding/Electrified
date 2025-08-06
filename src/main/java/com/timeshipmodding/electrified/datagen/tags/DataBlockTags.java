@@ -26,7 +26,14 @@ public class DataBlockTags extends BlockTagsProvider {
                 .add(BAUXITE_ORE.get())
                 .add(DEEPSLATE_BAUXITE_ORE.get())
                 .add(ALUMINIUM_FRAME.get())
-                .add(COPPER_FRAME.get());
+                .add(COPPER_FRAME.get())
+                .add(EXPOSED_COPPER_FRAME.get())
+                .add(WEATHERED_COPPER_FRAME.get())
+                .add(OXIDIZED_COPPER_FRAME.get())
+                .add(WAXED_COPPER_FRAME.get())
+                .add(WAXED_EXPOSED_COPPER_FRAME.get())
+                .add(WAXED_WEATHERED_COPPER_FRAME.get())
+                .add(WAXED_OXIDIZED_COPPER_FRAME.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(RAW_ALUMINIUM_BLOCK.get())
@@ -34,6 +41,13 @@ public class DataBlockTags extends BlockTagsProvider {
                 .add(BAUXITE_ORE.get())
                 .add(DEEPSLATE_BAUXITE_ORE.get())
                 .add(ALUMINIUM_FRAME.get())
-                .add(COPPER_FRAME.get());
+                .add(COPPER_FRAME.get())
+                .add(EXPOSED_COPPER_FRAME.get())
+                .add(WEATHERED_COPPER_FRAME.get())
+                .add(OXIDIZED_COPPER_FRAME.get())
+                .add(WAXED_COPPER_FRAME.get())
+                .add(WAXED_EXPOSED_COPPER_FRAME.get())
+                .add(WAXED_WEATHERED_COPPER_FRAME.get())
+                .add(WAXED_OXIDIZED_COPPER_FRAME.get());
     }
 }

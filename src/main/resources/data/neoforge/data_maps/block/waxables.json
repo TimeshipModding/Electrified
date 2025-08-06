@@ -1,0 +1,16 @@
+{
+  "values": {
+    "electrified:copper_frame": {
+      "waxed": "electrified:waxed_copper_frame"
+    },
+    "electrified:exposed_copper_frame": {
+      "waxed": "electrified:waxed_exposed_copper_frame"
+    },
+    "electrified:weathered_copper_frame": {
+      "waxed": "electrified:waxed_weathered_copper_frame"
+    },
+    "electrified:oxidized_copper_frame": {
+      "waxed": "electrified:waxed_oxidized_copper_frame"
+    }
+  }
+}

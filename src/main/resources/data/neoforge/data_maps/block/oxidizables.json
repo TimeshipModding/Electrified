@@ -1,0 +1,13 @@
+{
+  "values": {
+    "electrified:copper_frame": {
+      "next_oxidation_stage": "electrified:exposed_copper_frame"
+    },
+    "electrified:exposed_copper_frame": {
+      "next_oxidation_stage": "electrified:weathered_copper_frame"
+    },
+    "electrified:weathered_copper_frame": {
+      "next_oxidation_stage": "electrified:oxidized_copper_frame"
+    }
+  }
+}

@@ -19,12 +19,19 @@ public class MaterialsTab {
             .title(Component.translatable("creativemodetab.electrified.materials_tab"))
             .icon(() -> new ItemStack(ModItems.ALUMINIUM_INGOT.get()))
             .displayItems((parameters, pOutput) -> {
+                pOutput.accept(COPPER_FRAME);
+                pOutput.accept(EXPOSED_COPPER_FRAME);
+                pOutput.accept(WEATHERED_COPPER_FRAME);
+                pOutput.accept(OXIDIZED_COPPER_FRAME);
+                pOutput.accept(WAXED_COPPER_FRAME);
+                pOutput.accept(WAXED_EXPOSED_COPPER_FRAME);
+                pOutput.accept(WAXED_WEATHERED_COPPER_FRAME);
+                pOutput.accept(WAXED_OXIDIZED_COPPER_FRAME);
+                pOutput.accept(ALUMINIUM_FRAME);
                 pOutput.accept(ALUMINIUM_BLOCK);
                 pOutput.accept(BAUXITE_ORE);
                 pOutput.accept(DEEPSLATE_BAUXITE_ORE);
                 pOutput.accept(RAW_ALUMINIUM_BLOCK);
-                pOutput.accept(COPPER_FRAME);
-                pOutput.accept(ALUMINIUM_FRAME);
                 pOutput.accept(RAW_ALUMINIUM);
                 pOutput.accept(ALUMINIUM_INGOT);
             }).build());
