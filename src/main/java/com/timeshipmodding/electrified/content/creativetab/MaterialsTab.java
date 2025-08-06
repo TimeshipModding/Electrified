@@ -15,7 +15,7 @@ import static com.timeshipmodding.electrified.content.block.registries.ModBlocks
 public class MaterialsTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Electrified.MODID);
 
-    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> ESSENTIALS_TAB = CREATIVE_MODE_TABS.register("materials_tab", () -> CreativeModeTab.builder()
+    public static final DeferredHolder<CreativeModeTab, CreativeModeTab> MATERIALS_TAB = CREATIVE_MODE_TABS.register("materials_tab", () -> CreativeModeTab.builder()
             .title(Component.translatable("creativemodetab.electrified.materials_tab"))
             .icon(() -> new ItemStack(ModItems.ALUMINIUM_INGOT.get()))
             .displayItems((parameters, pOutput) -> {
@@ -23,6 +23,8 @@ public class MaterialsTab {
                 pOutput.accept(BAUXITE_ORE);
                 pOutput.accept(DEEPSLATE_BAUXITE_ORE);
                 pOutput.accept(RAW_ALUMINIUM_BLOCK);
+                pOutput.accept(COPPER_FRAME);
+                pOutput.accept(ALUMINIUM_FRAME);
                 pOutput.accept(RAW_ALUMINIUM);
                 pOutput.accept(ALUMINIUM_INGOT);
             }).build());

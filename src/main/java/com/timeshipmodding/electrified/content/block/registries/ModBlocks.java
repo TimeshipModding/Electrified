@@ -21,6 +21,8 @@ public class ModBlocks {
     public static final DeferredBlock<Block> ALUMINIUM_BLOCK = registerBlock("aluminium_block", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
     public static final DeferredBlock<Block> BAUXITE_ORE = registerBlock("bauxite_ore", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE).requiresCorrectToolForDrops().strength(3.0F, 3.0F)));
     public static final DeferredBlock<Block> DEEPSLATE_BAUXITE_ORE = registerBlock("deepslate_bauxite_ore", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE).requiresCorrectToolForDrops().strength(4.5F, 3.0F)));
+    public static final DeferredBlock<Block> ALUMINIUM_FRAME = registerBlock("aluminium_frame", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).noOcclusion().requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final DeferredBlock<Block> COPPER_FRAME = registerBlock("copper_frame", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.COPPER_BLOCK).noOcclusion().requiresCorrectToolForDrops().strength(3.0F, 6.0F)));
 
     // Register Methods
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

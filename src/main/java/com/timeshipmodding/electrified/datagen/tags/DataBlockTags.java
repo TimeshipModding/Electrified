@@ -24,12 +24,16 @@ public class DataBlockTags extends BlockTagsProvider {
                 .add(RAW_ALUMINIUM_BLOCK.get())
                 .add(ALUMINIUM_BLOCK.get())
                 .add(BAUXITE_ORE.get())
-                .add(DEEPSLATE_BAUXITE_ORE.get());
+                .add(DEEPSLATE_BAUXITE_ORE.get())
+                .add(ALUMINIUM_FRAME.get())
+                .add(COPPER_FRAME.get());
 
         this.tag(BlockTags.NEEDS_STONE_TOOL)
                 .add(RAW_ALUMINIUM_BLOCK.get())
                 .add(ALUMINIUM_BLOCK.get())
                 .add(BAUXITE_ORE.get())
-                .add(DEEPSLATE_BAUXITE_ORE.get());
+                .add(DEEPSLATE_BAUXITE_ORE.get())
+                .add(ALUMINIUM_FRAME.get())
+                .add(COPPER_FRAME.get());
     }
 }

@@ -4,10 +4,6 @@ import com.timeshipmodding.electrified.content.block.registries.ModBlocks;
 import com.timeshipmodding.electrified.content.creativetab.MaterialsTab;
 import com.timeshipmodding.electrified.content.item.registries.ModItems;
 import com.tterrag.registrate.Registrate;
-import net.createmod.catnip.lang.FontHelper;
-import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
-import net.minecraft.world.item.CreativeModeTab;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -28,7 +24,7 @@ public class Electrified
         ModBlocks.BLOCKS.register(modEventBus);
         ModItems.ITEMS.register(modEventBus);
 
-        // Register creative mode tab
+        // Register creative mode tabs
         MaterialsTab.CREATIVE_MODE_TABS.register(modEventBus);
     }
 }

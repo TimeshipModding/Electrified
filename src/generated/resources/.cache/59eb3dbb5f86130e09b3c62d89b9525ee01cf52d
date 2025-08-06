@@ -1,5 +1,7 @@
-// 1.21.1	2025-08-04T20:37:18.1069501	Loot Tables
+// 1.21.1	2025-08-06T10:15:20.6117548	Loot Tables
 77cbf40ae9ab5ba79ced65967d481cf341090111 data/electrified/loot_table/blocks/aluminium_block.json
+afee0e23c334552ad21c96f76b9b19cbbdcaf7a1 data/electrified/loot_table/blocks/aluminium_frame.json
 024277b4a412d78ed60c9ba362b695dc7ae37325 data/electrified/loot_table/blocks/bauxite_ore.json
+4ecca6354fee3fdd5b467dbe3086f4469304f184 data/electrified/loot_table/blocks/copper_frame.json
 c3b2d3da6411375ffd995f559316727aac918430 data/electrified/loot_table/blocks/deepslate_bauxite_ore.json
 7b0e4ac4782b715fe739683a609c83075a985d23 data/electrified/loot_table/blocks/raw_aluminium_block.json

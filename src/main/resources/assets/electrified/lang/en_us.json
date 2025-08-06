@@ -5,6 +5,8 @@
   "block.electrified.bauxite_ore": "Bauxite Ore",
   "block.electrified.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
   "block.electrified.raw_aluminium_block": "Block of Raw Aluminium",
+  "block.electrified.aluminium_frame": "Aluminium Frame",
+  "block.electrified.copper_frame": "Copper Frame",
 
   "item.electrified.aluminium_ingot": "Aluminium Ingot",
   "item.electrified.raw_aluminium": "Raw Aluminium"
