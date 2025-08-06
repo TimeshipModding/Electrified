@@ -4,6 +4,7 @@ import com.timeshipmodding.electrified.Electrified;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.recipes.*;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.*;
 import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
@@ -36,6 +37,18 @@ public class DataRecipes extends RecipeProvider implements IConditionBuilder {
                 .pattern("BBB")
                 .define('B', RAW_ALUMINIUM.get())
                 .unlockedBy("has_raw_aluminium", has(RAW_ALUMINIUM.get())).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ALUMINIUM_FRAME.get())
+                .pattern("B B")
+                .pattern("   ")
+                .pattern("B B")
+                .define('B', ALUMINIUM_INGOT.get())
+                .unlockedBy("has_aluminium_ingot", has(ALUMINIUM_INGOT.get())).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, COPPER_FRAME.get())
+                .pattern("B B")
+                .pattern("   ")
+                .pattern("B B")
+                .define('B', Items.COPPER_INGOT)
+                .unlockedBy("has_copper_ingot", has(Items.COPPER_INGOT)).save(recipeOutput);
 
         // Shapeless Recipes
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ALUMINIUM_INGOT.get(), 9).requires(ALUMINIUM_BLOCK.get()).unlockedBy("has_aluminium_block", has(ALUMINIUM_BLOCK.get())).save(recipeOutput);
