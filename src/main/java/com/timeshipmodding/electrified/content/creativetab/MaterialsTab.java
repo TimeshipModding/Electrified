@@ -34,6 +34,9 @@ public class MaterialsTab {
                 pOutput.accept(RAW_ALUMINIUM_BLOCK);
                 pOutput.accept(RAW_ALUMINIUM);
                 pOutput.accept(ALUMINIUM_INGOT);
+                pOutput.accept(ALUMINIUM_SHEET);
+                pOutput.accept(COPPER_SHEET);
+                pOutput.accept(COPPER_WIRE);
             }).build());
 }
 

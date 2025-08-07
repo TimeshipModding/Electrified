@@ -17,5 +17,8 @@ public class DataItemModels extends ItemModelProvider {
         // Items
         basicItem(RAW_ALUMINIUM.get());
         basicItem(ALUMINIUM_INGOT.get());
+        basicItem(ALUMINIUM_SHEET.get());
+        basicItem(COPPER_SHEET.get());
+        basicItem(COPPER_WIRE.get());
     }
 }

@@ -1,3 +1,6 @@
-// 1.21.1	2025-08-04T20:37:18.110948	Item Models: electrified
+// 1.21.1	2025-08-07T19:43:26.684608	Item Models: electrified
 641bbeea03500d0e48804869043c55ee05620ce9 assets/electrified/models/item/aluminium_ingot.json
+cd76c800bf0462b77a77e1e553403c8c6b915a7c assets/electrified/models/item/aluminium_sheet.json
+d2c20f2fa2e73932848397031372bfdbbd94e7bb assets/electrified/models/item/copper_sheet.json
+16db968040ed911bb445c31e8bde6f5552431964 assets/electrified/models/item/copper_wire.json
 82823cf581a6077b87740a3a1a983a868118f6ec assets/electrified/models/item/raw_aluminium.json

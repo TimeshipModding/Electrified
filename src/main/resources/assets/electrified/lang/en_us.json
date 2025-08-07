@@ -16,5 +16,8 @@
   "block.electrified.waxed_oxidized_copper_frame": "Waxed Oxidized Copper Frame",
 
   "item.electrified.aluminium_ingot": "Aluminium Ingot",
-  "item.electrified.raw_aluminium": "Raw Aluminium"
+  "item.electrified.raw_aluminium": "Raw Aluminium",
+  "item.electrified.aluminium_sheet": "Aluminium Sheet",
+  "item.electrified.copper_sheet": "Copper Sheet",
+  "item.electrified.copper_wire": "Copper Wire"
 }
