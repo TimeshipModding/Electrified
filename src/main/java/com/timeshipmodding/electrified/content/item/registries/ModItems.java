@@ -15,4 +15,6 @@ public class ModItems {
     public static final DeferredItem<Item> COPPER_SHEET = ITEMS.register("copper_sheet", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> IRON_SHEET = ITEMS.register("iron_sheet", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> COPPER_WIRE = ITEMS.register("copper_wire", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> SCREW = ITEMS.register("screw", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NUT = ITEMS.register("nut", () -> new Item(new Item.Properties()));
 }
