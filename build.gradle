@@ -123,8 +123,6 @@ dependencies {
     }
 }
 
-tasks.jarJar.finalizedBy('reobfJarJar')
-
 // gradle.properties entries
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
     var replaceProperties = [
