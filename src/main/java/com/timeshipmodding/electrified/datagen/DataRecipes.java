@@ -21,44 +21,70 @@ public class DataRecipes extends RecipeProvider implements IConditionBuilder {
     }
 
     private static final List<ItemLike> BAUXITE_SMELTABLES = List.of(RAW_ALUMINIUM.get(), BAUXITE_ORE.get(), DEEPSLATE_BAUXITE_ORE.get());
+    private static final List<ItemLike> NICKEL_SMELTABLES = List.of(RAW_NICKEL.get(), NICKEL_ORE.get(), DEEPSLATE_NICKEL_ORE.get());
 
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
         // Shaped Recipes
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ALUMINIUM_BLOCK.get())
-                .pattern("BBB")
-                .pattern("BBB")
-                .pattern("BBB")
-                .define('B', ALUMINIUM_INGOT.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', ALUMINIUM_INGOT.get())
                 .unlockedBy("has_aluminium_ingot", has(ALUMINIUM_INGOT.get())).save(recipeOutput);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RAW_ALUMINIUM_BLOCK.get())
-                .pattern("BBB")
-                .pattern("BBB")
-                .pattern("BBB")
-                .define('B', RAW_ALUMINIUM.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', RAW_ALUMINIUM.get())
                 .unlockedBy("has_raw_aluminium", has(RAW_ALUMINIUM.get())).save(recipeOutput);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ALUMINIUM_FRAME.get())
-                .pattern("B B")
+                .pattern("A A")
                 .pattern("   ")
-                .pattern("B B")
-                .define('B', ALUMINIUM_INGOT.get())
+                .pattern("A A")
+                .define('A', ALUMINIUM_INGOT.get())
                 .unlockedBy("has_aluminium_ingot", has(ALUMINIUM_INGOT.get())).save(recipeOutput);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, COPPER_FRAME.get())
-                .pattern("B B")
+                .pattern("A A")
                 .pattern("   ")
-                .pattern("B B")
-                .define('B', Items.COPPER_INGOT)
+                .pattern("A A")
+                .define('A', Items.COPPER_INGOT)
                 .unlockedBy("has_copper_ingot", has(Items.COPPER_INGOT)).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, NICKEL_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', NICKEL_INGOT.get())
+                .unlockedBy("has_nickel_ingot", has(NICKEL_INGOT.get())).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, RAW_NICKEL_BLOCK.get())
+                .pattern("AAA")
+                .pattern("AAA")
+                .pattern("AAA")
+                .define('A', RAW_NICKEL.get())
+                .unlockedBy("has_raw_nickel", has(RAW_NICKEL.get())).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, MAGNET.get())
+                .pattern("   ")
+                .pattern("AB ")
+                .pattern("CD ")
+                .define('A', NICKEL_INGOT.get())
+                .define('B', Items.BLUE_DYE)
+                .define('C', ALUMINIUM_INGOT.get())
+                .define('D', Items.RED_DYE)
+                .unlockedBy("has_nickel_ingot", has(NICKEL_INGOT.get())).save(recipeOutput);
 
         // Shapeless Recipes
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ALUMINIUM_INGOT.get(), 9).requires(ALUMINIUM_BLOCK.get()).unlockedBy("has_aluminium_block", has(ALUMINIUM_BLOCK.get())).save(recipeOutput);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RAW_ALUMINIUM.get(), 9).requires(RAW_ALUMINIUM_BLOCK.get()).unlockedBy("has_raw_aluminium_block", has(RAW_ALUMINIUM_BLOCK.get())).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, NICKEL_INGOT.get(), 9).requires(NICKEL_BLOCK.get()).unlockedBy("has_nickel_block", has(NICKEL_BLOCK.get())).save(recipeOutput);
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, RAW_NICKEL.get(), 9).requires(RAW_NICKEL_BLOCK.get()).unlockedBy("has_raw_nickel_block", has(RAW_NICKEL_BLOCK.get())).save(recipeOutput);
 
         // Ore Smelting
         oreSmelting(recipeOutput, BAUXITE_SMELTABLES, RecipeCategory.MISC, ALUMINIUM_INGOT.get(), 0.7F, 200, "aluminium_ingot");
+        oreSmelting(recipeOutput, NICKEL_SMELTABLES, RecipeCategory.MISC, NICKEL_INGOT.get(), 0.7F, 200, "nickel_ingot");
 
         // Ore Blasting
         oreBlasting(recipeOutput, BAUXITE_SMELTABLES, RecipeCategory.MISC, ALUMINIUM_INGOT.get(), 0.7F, 100, "aluminium_ingot");
+        oreBlasting(recipeOutput, NICKEL_SMELTABLES, RecipeCategory.MISC, NICKEL_INGOT.get(), 0.7F, 100, "nickel_ingot");
     }
 
     protected static void oreSmelting(RecipeOutput pRecipeOutput, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult,

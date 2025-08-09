@@ -1,5 +1,6 @@
 {
-  "creativemodetab.electrified.materials_tab": "Electrified: Materials and Components ",
+  "creativemodetab.electrified.ingredients_tab": "Electrified: Ingredients",
+  "creativemodetab.electrified.multiblock_blocks_tab": "Electrified: Multiblock Blocks",
 
   "block.electrified.aluminium_block": "Block of Aluminium",
   "block.electrified.bauxite_ore": "Bauxite Ore",
@@ -14,6 +15,10 @@
   "block.electrified.waxed_exposed_copper_frame": "Waxed Exposed Copper Frame",
   "block.electrified.waxed_weathered_copper_frame": "Waxed Weathered Copper Frame",
   "block.electrified.waxed_oxidized_copper_frame": "Waxed Oxidized Copper Frame",
+  "block.electrified.nickel_block": "Block of Nickel",
+  "block.electrified.nickel_ore": "Nickel Ore",
+  "block.electrified.deepslate_nickel_ore": "Deepslate Nickel Ore",
+  "block.electrified.raw_nickel_block": "Block of Raw Nickel",
 
   "item.electrified.aluminium_ingot": "Aluminium Ingot",
   "item.electrified.raw_aluminium": "Raw Aluminium",
@@ -26,5 +31,8 @@
   "item.electrified.bearing": "Bearing",
   "item.electrified.coupling": "Coupling",
   "item.electrified.gear": "Gear",
-  "item.electrified.spring": "Spring"
+  "item.electrified.spring": "Spring",
+  "item.electrified.magnet": "Magnet",
+  "item.electrified.raw_nickel": "Raw Nickel",
+  "item.electrified.nickel_ingot": "Nickel Ingot"
 }

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "electrified:nickel_ingot"
+    },
+    "B": {
+      "item": "minecraft:blue_dye"
+    },
+    "C": {
+      "item": "electrified:aluminium_ingot"
+    },
+    "D": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "pattern": [
+    "   ",
+    "AB ",
+    "CD "
+  ],
+  "result": {
+    "count": 1,
+    "id": "electrified:magnet"
+  }
+}

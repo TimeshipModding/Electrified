@@ -27,5 +27,8 @@ public class DataItemModels extends ItemModelProvider {
         basicItem(COUPLING.get());
         basicItem(GEAR.get());
         basicItem(SPRING.get());
+        basicItem(MAGNET.get());
+        basicItem(RAW_NICKEL.get());
+        basicItem(NICKEL_INGOT.get());
     }
 }

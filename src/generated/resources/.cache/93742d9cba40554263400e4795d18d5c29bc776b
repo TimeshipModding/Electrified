@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-09T12:12:41.3585046	Item Models: electrified
+// 1.21.1	2025-08-09T14:05:20.495526	Item Models: electrified
 641bbeea03500d0e48804869043c55ee05620ce9 assets/electrified/models/item/aluminium_ingot.json
 cd76c800bf0462b77a77e1e553403c8c6b915a7c assets/electrified/models/item/aluminium_sheet.json
 5ebc106bc2c405cfaa5a63ff2cebb9e16cb83b4f assets/electrified/models/item/bearing.json
@@ -7,7 +7,10 @@ d2c20f2fa2e73932848397031372bfdbbd94e7bb assets/electrified/models/item/copper_s
 82e4b1de07e961644cd05647ba90c99890a0c4c5 assets/electrified/models/item/coupling.json
 78f93f028473fc61b65eb495d748aababa4df334 assets/electrified/models/item/gear.json
 af9ddc33ca28d5d72bf040b2bf6797cc249f146a assets/electrified/models/item/iron_sheet.json
+4f411f8d1baaef8f5ea9fe6daaa13d9c93b01d65 assets/electrified/models/item/magnet.json
+3791a34a3cf0187178d7a2db576db5910a91bf7b assets/electrified/models/item/nickel_ingot.json
 d07b4638ece896e762bc5c2ec9164e315f0e7ef8 assets/electrified/models/item/nut.json
 82823cf581a6077b87740a3a1a983a868118f6ec assets/electrified/models/item/raw_aluminium.json
+135e5a096017069bd13de29fbcc0f53f9d2c930b assets/electrified/models/item/raw_nickel.json
 0e0efda4b5055b405caf6e5d686c444da547bac1 assets/electrified/models/item/screw.json
 c2541c34791c5dec9dc1d3e43ed69ab858f02932 assets/electrified/models/item/spring.json

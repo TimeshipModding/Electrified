@@ -2,14 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "B": {
+    "A": {
       "item": "minecraft:copper_ingot"
     }
   },
   "pattern": [
-    "B B",
+    "A A",
     "   ",
-    "B B"
+    "A A"
   ],
   "result": {
     "count": 1,

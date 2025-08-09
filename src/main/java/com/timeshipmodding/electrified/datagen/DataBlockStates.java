@@ -22,6 +22,10 @@ public class DataBlockStates extends BlockStateProvider {
         blockWithItem(ALUMINIUM_BLOCK);
         blockWithItem(BAUXITE_ORE);
         blockWithItem(DEEPSLATE_BAUXITE_ORE);
+        blockWithItem(RAW_NICKEL_BLOCK);
+        blockWithItem(NICKEL_BLOCK);
+        blockWithItem(NICKEL_ORE);
+        blockWithItem(DEEPSLATE_NICKEL_ORE);
     }
 
     // Generate Methods

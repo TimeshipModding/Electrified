@@ -32,6 +32,10 @@ public class ModBlocks {
     public static final DeferredBlock<Block> WAXED_EXPOSED_COPPER_FRAME = registerBlock("waxed_exposed_copper_frame", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.EXPOSED_COPPER).noOcclusion().requiresCorrectToolForDrops().strength(3.0F, 6.0F)));
     public static final DeferredBlock<Block> WAXED_WEATHERED_COPPER_FRAME = registerBlock("waxed_weathered_copper_frame", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.WEATHERED_COPPER).noOcclusion().requiresCorrectToolForDrops().strength(3.0F, 6.0F)));
     public static final DeferredBlock<Block> WAXED_OXIDIZED_COPPER_FRAME = registerBlock("waxed_oxidized_copper_frame", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.OXIDIZED_COPPER).noOcclusion().requiresCorrectToolForDrops().strength(3.0F, 6.0F)));
+    public static final DeferredBlock<Block> RAW_NICKEL_BLOCK = registerBlock("raw_nickel_block", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.RAW_IRON_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final DeferredBlock<Block> NICKEL_BLOCK = registerBlock("nickel_block", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
+    public static final DeferredBlock<Block> NICKEL_ORE = registerBlock("nickel_ore", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE).requiresCorrectToolForDrops().strength(3.0F, 3.0F)));
+    public static final DeferredBlock<Block> DEEPSLATE_NICKEL_ORE = registerBlock("deepslate_nickel_ore", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE).requiresCorrectToolForDrops().strength(4.5F, 3.0F)));
 
     // Register Methods
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

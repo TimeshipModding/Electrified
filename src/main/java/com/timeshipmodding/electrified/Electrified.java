@@ -1,7 +1,8 @@
 package com.timeshipmodding.electrified;
 
 import com.timeshipmodding.electrified.content.block.registries.ModBlocks;
-import com.timeshipmodding.electrified.content.creativetab.MaterialsTab;
+import com.timeshipmodding.electrified.content.creativetab.IngredientsTab;
+import com.timeshipmodding.electrified.content.creativetab.MultiblockBlocksTab;
 import com.timeshipmodding.electrified.content.item.registries.ModItems;
 import com.tterrag.registrate.Registrate;
 import org.slf4j.Logger;
@@ -25,6 +26,7 @@ public class Electrified
         ModItems.ITEMS.register(modEventBus);
 
         // Register creative mode tabs
-        MaterialsTab.CREATIVE_MODE_TABS.register(modEventBus);
+        IngredientsTab.CREATIVE_MODE_TABS.register(modEventBus);
+        MultiblockBlocksTab.CREATIVE_MODE_TABS.register(modEventBus);
     }
 }

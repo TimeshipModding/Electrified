@@ -12,6 +12,10 @@
     "electrified:waxed_copper_frame",
     "electrified:waxed_exposed_copper_frame",
     "electrified:waxed_weathered_copper_frame",
-    "electrified:waxed_oxidized_copper_frame"
+    "electrified:waxed_oxidized_copper_frame",
+    "electrified:raw_nickel_block",
+    "electrified:nickel_block",
+    "electrified:nickel_ore",
+    "electrified:deepslate_nickel_ore"
   ]
 }

@@ -27,6 +27,7 @@ public class DataItemTags extends ItemTagsProvider {
                 .add(BEARING.get())
                 .add(COUPLING.get())
                 .add(GEAR.get())
-                .add(SPRING.get());
+                .add(SPRING.get())
+                .add(MAGNET.get());
     }
 }

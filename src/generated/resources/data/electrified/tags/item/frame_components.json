@@ -5,6 +5,7 @@
     "electrified:bearing",
     "electrified:coupling",
     "electrified:gear",
-    "electrified:spring"
+    "electrified:spring",
+    "electrified:magnet"
   ]
 }

@@ -21,4 +21,7 @@ public class ModItems {
     public static final DeferredItem<Item> COUPLING = ITEMS.register("coupling", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> GEAR = ITEMS.register("gear", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> SPRING = ITEMS.register("spring", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> MAGNET = ITEMS.register("magnet", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> RAW_NICKEL = ITEMS.register("raw_nickel", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot", () -> new Item(new Item.Properties()));
 }
