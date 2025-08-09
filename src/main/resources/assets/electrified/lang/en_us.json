@@ -19,6 +19,7 @@
   "block.electrified.nickel_ore": "Nickel Ore",
   "block.electrified.deepslate_nickel_ore": "Deepslate Nickel Ore",
   "block.electrified.raw_nickel_block": "Block of Raw Nickel",
+  "block.electrified.redstone_control_block": "Redstone Control Block",
 
   "item.electrified.aluminium_ingot": "Aluminium Ingot",
   "item.electrified.raw_aluminium": "Raw Aluminium",

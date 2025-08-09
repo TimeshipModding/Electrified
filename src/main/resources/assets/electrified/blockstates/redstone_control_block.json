@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "electrified:block/redstone_control_block"
+    },
+    "powered=true": {
+      "model": "electrified:block/redstone_control_block_on"
+    }
+  }
+}

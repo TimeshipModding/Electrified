@@ -1,6 +1,7 @@
 package com.timeshipmodding.electrified.content.block.registries;
 
 import com.timeshipmodding.electrified.Electrified;
+import com.timeshipmodding.electrified.content.block.RedstoneControlBlock;
 import com.timeshipmodding.electrified.content.item.registries.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -36,6 +37,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> NICKEL_BLOCK = registerBlock("nickel_block", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
     public static final DeferredBlock<Block> NICKEL_ORE = registerBlock("nickel_ore", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_ORE).requiresCorrectToolForDrops().strength(3.0F, 3.0F)));
     public static final DeferredBlock<Block> DEEPSLATE_NICKEL_ORE = registerBlock("deepslate_nickel_ore", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DEEPSLATE_IRON_ORE).requiresCorrectToolForDrops().strength(4.5F, 3.0F)));
+    public static final DeferredBlock<Block> REDSTONE_CONTROL_BLOCK = registerBlock("redstone_control_block", () -> new RedstoneControlBlock(BlockBehaviour.Properties.ofFullCopy(Blocks.IRON_BLOCK).noOcclusion().requiresCorrectToolForDrops().strength(5.0F, 6.0F)));
 
     // Register Methods
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

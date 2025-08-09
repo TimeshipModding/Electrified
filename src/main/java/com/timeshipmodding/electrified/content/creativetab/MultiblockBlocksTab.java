@@ -27,5 +27,6 @@ public class MultiblockBlocksTab {
                 pOutput.accept(WAXED_WEATHERED_COPPER_FRAME);
                 pOutput.accept(WAXED_OXIDIZED_COPPER_FRAME);
                 pOutput.accept(ALUMINIUM_FRAME);
+                pOutput.accept(REDSTONE_CONTROL_BLOCK);
             }).build());
 }
