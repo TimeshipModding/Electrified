@@ -23,5 +23,9 @@ public class DataItemModels extends ItemModelProvider {
         basicItem(COPPER_WIRE.get());
         basicItem(SCREW.get());
         basicItem(NUT.get());
+        basicItem(BEARING.get());
+        basicItem(COUPLING.get());
+        basicItem(GEAR.get());
+        basicItem(SPRING.get());
     }
 }

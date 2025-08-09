@@ -22,5 +22,9 @@
   "item.electrified.iron_sheet": "Iron Sheet",
   "item.electrified.copper_wire": "Copper Wire",
   "item.electrified.screw": "Screw",
-  "item.electrified.nut": "Nut"
+  "item.electrified.nut": "Nut",
+  "item.electrified.bearing": "Bearing",
+  "item.electrified.coupling": "Coupling",
+  "item.electrified.gear": "Gear",
+  "item.electrified.spring": "Spring"
 }

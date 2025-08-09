@@ -38,8 +38,12 @@ public class MaterialsTab {
                 pOutput.accept(COPPER_SHEET);
                 pOutput.accept(ALUMINIUM_SHEET);
                 pOutput.accept(COPPER_WIRE);
-                pOutput.accept(SCREW);
+                pOutput.accept(BEARING);
+                pOutput.accept(COUPLING);
+                pOutput.accept(GEAR);
                 pOutput.accept(NUT);
+                pOutput.accept(SCREW);
+                pOutput.accept(SPRING);
             }).build());
 }
 
