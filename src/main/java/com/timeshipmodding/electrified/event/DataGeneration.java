@@ -1,6 +1,5 @@
 package com.timeshipmodding.electrified.event;
 
-import com.timeshipmodding.electrified.Electrified;
 import com.timeshipmodding.electrified.datagen.DataBlockStates;
 import com.timeshipmodding.electrified.datagen.DataItemModels;
 import com.timeshipmodding.electrified.datagen.DataRecipes;

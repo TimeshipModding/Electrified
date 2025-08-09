@@ -1,7 +1,6 @@
 package com.timeshipmodding.electrified.content.creativetab;
 
 import com.timeshipmodding.electrified.Electrified;
-import com.timeshipmodding.electrified.content.item.registries.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
