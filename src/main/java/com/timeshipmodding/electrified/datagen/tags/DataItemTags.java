@@ -29,5 +29,9 @@ public class DataItemTags extends ItemTagsProvider {
                 .add(GEAR.get())
                 .add(SPRING.get())
                 .add(MAGNET.get());
+
+        this.tag(ModItemTags.CORES)
+                .add(MECHANICAL_CORE.get())
+                .add(ELECTRICAL_CORE.get());
     }
 }

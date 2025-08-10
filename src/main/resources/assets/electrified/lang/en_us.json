@@ -36,5 +36,7 @@
   "item.electrified.spring": "Spring",
   "item.electrified.magnet": "Magnet",
   "item.electrified.raw_nickel": "Raw Nickel",
-  "item.electrified.nickel_ingot": "Nickel Ingot"
+  "item.electrified.nickel_ingot": "Nickel Ingot",
+  "item.electrified.mechanical_core": "Mechanical Core",
+  "item.electrified.electrical_core": "Electrical Core"
 }
