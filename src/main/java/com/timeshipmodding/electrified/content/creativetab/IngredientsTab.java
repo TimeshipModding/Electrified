@@ -31,8 +31,8 @@ public class IngredientsTab {
                 pOutput.accept(RAW_NICKEL);
                 pOutput.accept(NICKEL_INGOT);
                 pOutput.accept(IRON_SHEET);
-                pOutput.accept(COPPER_SHEET);
                 pOutput.accept(ALUMINIUM_SHEET);
+                pOutput.accept(COPPER_SHEET);
                 pOutput.accept(COPPER_WIRE);
                 pOutput.accept(MECHANICAL_CORE);
                 pOutput.accept(ELECTRICAL_CORE);
@@ -43,5 +43,7 @@ public class IngredientsTab {
                 pOutput.accept(NUT);
                 pOutput.accept(SCREW);
                 pOutput.accept(SPRING);
+                pOutput.accept(CAPACITOR);
+                pOutput.accept(FUSE);
             }).build());
 }

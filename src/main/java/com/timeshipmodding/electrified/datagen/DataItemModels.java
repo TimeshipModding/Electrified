@@ -32,5 +32,7 @@ public class DataItemModels extends ItemModelProvider {
         basicItem(NICKEL_INGOT.get());
         basicItem(MECHANICAL_CORE.get());
         basicItem(ELECTRICAL_CORE.get());
+        basicItem(FUSE.get());
+        basicItem(CAPACITOR.get());
     }
 }

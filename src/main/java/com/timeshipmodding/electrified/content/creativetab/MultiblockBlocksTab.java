@@ -18,6 +18,8 @@ public class MultiblockBlocksTab {
             .title(Component.translatable("creativemodetab.electrified.multiblock_blocks_tab"))
             .icon(() -> new ItemStack(COPPER_FRAME.get()))
             .displayItems((parameters, pOutput) -> {
+                pOutput.accept(ALUMINIUM_FRAME);
+                pOutput.accept(REDSTONE_CONTROL_BLOCK);
                 pOutput.accept(COPPER_FRAME);
                 pOutput.accept(EXPOSED_COPPER_FRAME);
                 pOutput.accept(WEATHERED_COPPER_FRAME);
@@ -27,7 +29,5 @@ public class MultiblockBlocksTab {
                 pOutput.accept(WAXED_WEATHERED_COPPER_FRAME);
                 pOutput.accept(WAXED_OXIDIZED_COPPER_FRAME);
                 pOutput.accept(POWER_SUPPLY);
-                pOutput.accept(ALUMINIUM_FRAME);
-                pOutput.accept(REDSTONE_CONTROL_BLOCK);
             }).build());
 }

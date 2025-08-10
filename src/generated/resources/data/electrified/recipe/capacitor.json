@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "electrified:iron_sheet"
+    },
+    "B": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "pattern": [
+    "   ",
+    "ABA",
+    "   "
+  ],
+  "result": {
+    "count": 1,
+    "id": "electrified:capacitor"
+  }
+}

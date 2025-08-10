@@ -6,6 +6,8 @@
     "electrified:coupling",
     "electrified:gear",
     "electrified:spring",
-    "electrified:magnet"
+    "electrified:magnet",
+    "electrified:fuse",
+    "electrified:capacitor"
   ]
 }

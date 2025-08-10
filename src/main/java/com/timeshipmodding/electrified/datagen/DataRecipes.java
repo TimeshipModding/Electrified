@@ -71,6 +71,21 @@ public class DataRecipes extends RecipeProvider implements IConditionBuilder {
                 .define('C', ALUMINIUM_INGOT.get())
                 .define('D', Items.RED_DYE)
                 .unlockedBy("has_nickel_ingot", has(NICKEL_INGOT.get())).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, FUSE.get())
+                .pattern(" A ")
+                .pattern(" B ")
+                .pattern(" A ")
+                .define('A', ALUMINIUM_INGOT.get())
+                .define('B', COPPER_WIRE)
+                .unlockedBy("has_copper_wire", has(COPPER_WIRE.get())).save(recipeOutput);
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CAPACITOR.get())
+                .pattern("   ")
+                .pattern("ABA")
+                .pattern("   ")
+                .define('A', IRON_SHEET.get())
+                .define('B', Items.CLAY_BALL)
+                .unlockedBy("has_iron_sheet", has(IRON_SHEET.get())).save(recipeOutput);
+
 
         // Shapeless Recipes
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ALUMINIUM_INGOT.get(), 9).requires(ALUMINIUM_BLOCK.get()).unlockedBy("has_aluminium_block", has(ALUMINIUM_BLOCK.get())).save(recipeOutput);

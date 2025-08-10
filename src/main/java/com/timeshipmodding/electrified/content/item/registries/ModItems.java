@@ -26,4 +26,6 @@ public class ModItems {
     public static final DeferredItem<Item> NICKEL_INGOT = ITEMS.register("nickel_ingot", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> MECHANICAL_CORE = ITEMS.register("mechanical_core", () -> new Item(new Item.Properties()));
     public static final DeferredItem<Item> ELECTRICAL_CORE = ITEMS.register("electrical_core", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> FUSE = ITEMS.register("fuse", () -> new Item(new Item.Properties()));
+    public static final DeferredItem<Item> CAPACITOR = ITEMS.register("capacitor", () -> new Item(new Item.Properties()));
 }
