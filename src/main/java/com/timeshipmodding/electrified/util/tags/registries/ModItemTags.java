@@ -8,6 +8,7 @@ import net.minecraft.world.item.Item;
 
 public class ModItemTags {
     public static TagKey<Item> FRAME_COMPONENTS = createTag("frame_components");
+    public static TagKey<Item> CORES = createTag("cores");
 
     private static TagKey<Item> createTag(String name) {
         return ItemTags.create(ResourceLocation.fromNamespaceAndPath(Electrified.MODID, name));

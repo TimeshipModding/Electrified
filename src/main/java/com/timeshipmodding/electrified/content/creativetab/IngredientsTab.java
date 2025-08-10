@@ -34,6 +34,8 @@ public class IngredientsTab {
                 pOutput.accept(COPPER_SHEET);
                 pOutput.accept(ALUMINIUM_SHEET);
                 pOutput.accept(COPPER_WIRE);
+                pOutput.accept(MECHANICAL_CORE);
+                pOutput.accept(ELECTRICAL_CORE);
                 pOutput.accept(BEARING);
                 pOutput.accept(COUPLING);
                 pOutput.accept(GEAR);
