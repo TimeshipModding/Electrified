@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "electrified:block/power_supply",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "electrified:block/power_supply",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "electrified:block/power_supply"
+    },
+    "facing=south": {
+      "model": "electrified:block/power_supply",
+      "x": 180
+    },
+    "facing=up": {
+      "model": "electrified:block/power_supply",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "electrified:block/power_supply",
+      "y": 270
+    }
+  }
+}

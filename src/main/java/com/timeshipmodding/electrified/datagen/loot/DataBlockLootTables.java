@@ -43,6 +43,7 @@ public class DataBlockLootTables extends BlockLootSubProvider {
         dropSelf(RAW_NICKEL_BLOCK.get());
         dropSelf(NICKEL_BLOCK.get());
         dropSelf(REDSTONE_CONTROL_BLOCK.get());
+        dropSelf(POWER_SUPPLY.get());
 
         // Ore Drops
         this.add(BAUXITE_ORE.get(), block -> createOreDrop(BAUXITE_ORE.get(), RAW_ALUMINIUM.get()));

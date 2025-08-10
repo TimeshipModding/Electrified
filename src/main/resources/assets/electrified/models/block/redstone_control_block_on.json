@@ -4,7 +4,7 @@
 	"textures": {
 		"2": "electrified:block/aluminium_block",
 		"4": "electrified:block/redstone_control_block_on",
-		"particle": "electrified:block/redstone_control_block_on"
+		"particle": "electrified:block/aluminium_block"
 	},
 	"elements": [
 		{

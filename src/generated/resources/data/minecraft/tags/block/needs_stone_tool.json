@@ -12,6 +12,8 @@
     "electrified:waxed_copper_frame",
     "electrified:waxed_exposed_copper_frame",
     "electrified:waxed_weathered_copper_frame",
-    "electrified:waxed_oxidized_copper_frame"
+    "electrified:waxed_oxidized_copper_frame",
+    "electrified:redstone_control_block",
+    "electrified:power_supply"
   ]
 }

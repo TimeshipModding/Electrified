@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-09T14:05:20.4895143	Tags for minecraft:block mod id electrified
+// 1.21.1	2025-08-10T19:25:23.5206649	Tags for minecraft:block mod id electrified
 3d553f9a9e7cc5017989b3d83dfaa41ed1f12122 data/minecraft/tags/block/mineable/pickaxe.json
 f4c942abc59030322b2a89347c4690b6c483816c data/minecraft/tags/block/needs_iron_tool.json
-91dcb6b366671644ef4c5a244ee5f71564f46f52 data/minecraft/tags/block/needs_stone_tool.json
+f05b412365dee99f132026a480d7fe4993be9ee4 data/minecraft/tags/block/needs_stone_tool.json

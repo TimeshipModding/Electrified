@@ -52,7 +52,9 @@ public class DataBlockTags extends BlockTagsProvider {
                 .add(WAXED_COPPER_FRAME.get())
                 .add(WAXED_EXPOSED_COPPER_FRAME.get())
                 .add(WAXED_WEATHERED_COPPER_FRAME.get())
-                .add(WAXED_OXIDIZED_COPPER_FRAME.get());
+                .add(WAXED_OXIDIZED_COPPER_FRAME.get())
+                .add(REDSTONE_CONTROL_BLOCK.get())
+                .add(POWER_SUPPLY.get());
 
         this.tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(RAW_NICKEL_BLOCK.get())
