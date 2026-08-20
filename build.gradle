@@ -111,7 +111,7 @@ dependencies {
     compileOnly "mezz.jei:jei-${mc_version}-neoforge-api:${jei_version}"
     localRuntime "mezz.jei:jei-${mc_version}-neoforge:${jei_version}"
 
-    // Registerate Dependency
+    // Registrate Dependency
     jarJar(implementation("com.tterrag.registrate:Registrate:${registrate_version}"))
 
     // Ponder Dependency
