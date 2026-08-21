@@ -76,8 +76,8 @@ public class DataRecipes extends RecipeProvider implements IConditionBuilder {
                 .pattern(" B ")
                 .pattern(" A ")
                 .define('A', ALUMINIUM_INGOT.get())
-                .define('B', COPPER_WIRE)
-                .unlockedBy("has_copper_wire", has(COPPER_WIRE.get())).save(recipeOutput);
+                .define('B', COPPER_WIRE_SPOOL)
+                .unlockedBy("has_copper_wire", has(COPPER_WIRE_SPOOL.get())).save(recipeOutput);
         ShapedRecipeBuilder.shaped(RecipeCategory.MISC, CAPACITOR.get())
                 .pattern("   ")
                 .pattern("ABA")

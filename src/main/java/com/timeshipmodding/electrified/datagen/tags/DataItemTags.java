@@ -22,8 +22,6 @@ public class DataItemTags extends ItemTagsProvider {
     protected void addTags(HolderLookup.Provider pProvider) {
         // Electrified Tags
         this.tag(ModItemTags.FRAME_COMPONENTS)
-                .add(SCREW.get())
-                .add(NUT.get())
                 .add(BEARING.get())
                 .add(COUPLING.get())
                 .add(GEAR.get())

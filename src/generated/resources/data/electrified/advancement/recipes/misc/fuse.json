@@ -5,7 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": "electrified:copper_wire"
+            "items": "electrified:copper_wire_spool"
           }
         ]
       },

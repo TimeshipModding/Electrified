@@ -33,15 +33,13 @@ public class IngredientsTab {
                 pOutput.accept(IRON_SHEET);
                 pOutput.accept(ALUMINIUM_SHEET);
                 pOutput.accept(COPPER_SHEET);
-                pOutput.accept(COPPER_WIRE);
+                pOutput.accept(COPPER_WIRE_SPOOL);
                 pOutput.accept(MECHANICAL_CORE);
                 pOutput.accept(ELECTRICAL_CORE);
                 pOutput.accept(BEARING);
                 pOutput.accept(COUPLING);
                 pOutput.accept(GEAR);
                 pOutput.accept(MAGNET);
-                pOutput.accept(NUT);
-                pOutput.accept(SCREW);
                 pOutput.accept(SPRING);
                 pOutput.accept(CAPACITOR);
                 pOutput.accept(FUSE);

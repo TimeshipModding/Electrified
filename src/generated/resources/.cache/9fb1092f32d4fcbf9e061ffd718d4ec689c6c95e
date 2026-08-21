@@ -1,4 +1,4 @@
-// 1.21.1	2025-08-10T20:39:29.0266255	Recipes
+// 1.21.1	2026-08-21T16:40:56.7279801	Recipes
 563deec1bd4f8d55f952bd26b53aff5cb53a5d23 data/electrified/advancement/recipes/misc/aluminium_block.json
 bc669c5d9a0f0d39d7d60fda8fad84a490109988 data/electrified/advancement/recipes/misc/aluminium_frame.json
 d4669693ccb75e7caec362d40bf51354acbfd4f7 data/electrified/advancement/recipes/misc/aluminium_ingot.json
@@ -10,7 +10,7 @@ dd8bf68830cb62b85f5db88b3a229ff83467b040 data/electrified/advancement/recipes/mi
 357f000766cd53cd0464e4f4b9c67b2ee49984b6 data/electrified/advancement/recipes/misc/aluminium_ingot_from_smelting_raw_aluminium.json
 b733a249e16b98559fe1ec0a6aba7245845b0fe7 data/electrified/advancement/recipes/misc/capacitor.json
 bd8abfb8f7fa419e6b807117e6ab285c9eae97b5 data/electrified/advancement/recipes/misc/copper_frame.json
-0611689ecd94574201278cdb1fd2957836356ad6 data/electrified/advancement/recipes/misc/fuse.json
+fd6ae996fc167cbfba6123d96fc15a1d0c42dc73 data/electrified/advancement/recipes/misc/fuse.json
 a5a3c314eb0a3d9cf3adf8bf8c769399dc209ee2 data/electrified/advancement/recipes/misc/magnet.json
 768f7afa39a33d6f10ba46dbb864297b6859c4b3 data/electrified/advancement/recipes/misc/nickel_block.json
 893958ce227f140105740fc031c6ae4d1594a491 data/electrified/advancement/recipes/misc/nickel_ingot.json
@@ -35,7 +35,7 @@ dbd091750f19e7b066a21d2d3410d3b09fc85169 data/electrified/recipe/aluminium_ingot
 09b7ee1ddf73a23be0ba5068086f8952cdb12c02 data/electrified/recipe/aluminium_ingot_from_smelting_raw_aluminium.json
 589f8f77d904ed4d69bdf97bfe7a568d79728e87 data/electrified/recipe/capacitor.json
 7cd8a22f5a8535cda41164f9eeb6bbcdffa58601 data/electrified/recipe/copper_frame.json
-208c2b1644869bf48637131950872bc93e55d620 data/electrified/recipe/fuse.json
+2b3a07bc293046b5da16626faecf6f9dc5e7f07c data/electrified/recipe/fuse.json
 e6027bba43cb122fc345997788b2840b2e339515 data/electrified/recipe/magnet.json
 ebcadc823e38f67963cf3d729f1d2ae51cad9734 data/electrified/recipe/nickel_block.json
 8245d334950e0ca6c3b3b9fa3aa632b805f7b0f0 data/electrified/recipe/nickel_ingot.json

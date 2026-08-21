@@ -6,7 +6,7 @@
       "item": "electrified:aluminium_ingot"
     },
     "B": {
-      "item": "electrified:copper_wire"
+      "item": "electrified:copper_wire_spool"
     }
   },
   "pattern": [
