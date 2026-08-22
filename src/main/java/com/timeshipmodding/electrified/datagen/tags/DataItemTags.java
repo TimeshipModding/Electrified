@@ -26,9 +26,8 @@ public class DataItemTags extends ItemTagsProvider {
                 .add(COUPLING.get())
                 .add(GEAR.get())
                 .add(SPRING.get())
-                .add(MAGNET.get())
-                .add(FUSE.get())
-                .add(CAPACITOR.get());
+                .add(CAPACITOR.get())
+                .add(MAGNET.get());
 
         this.tag(ModItemTags.CORES)
                 .add(MECHANICAL_CORE.get())

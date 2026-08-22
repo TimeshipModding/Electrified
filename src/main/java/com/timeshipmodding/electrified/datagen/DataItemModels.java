@@ -17,20 +17,23 @@ public class DataItemModels extends ItemModelProvider {
         // Items
         basicItem(RAW_ALUMINIUM.get());
         basicItem(ALUMINIUM_INGOT.get());
+        basicItem(RAW_NICKEL.get());
+        basicItem(NICKEL_INGOT.get());
+        basicItem(IRON_SHEET.get());
         basicItem(ALUMINIUM_SHEET.get());
         basicItem(COPPER_SHEET.get());
-        basicItem(IRON_SHEET.get());
+        basicItem(GOLD_SHEET.get());
+        basicItem(ALUMINIUM_WIRE_SPOOL.get());
         basicItem(COPPER_WIRE_SPOOL.get());
+        basicItem(GOLD_WIRE_SPOOL.get());
+        basicItem(FUSE.get());
+        basicItem(MECHANICAL_CORE.get());
+        basicItem(ELECTRICAL_CORE.get());
         basicItem(BEARING.get());
         basicItem(COUPLING.get());
         basicItem(GEAR.get());
         basicItem(SPRING.get());
-        basicItem(MAGNET.get());
-        basicItem(RAW_NICKEL.get());
-        basicItem(NICKEL_INGOT.get());
-        basicItem(MECHANICAL_CORE.get());
-        basicItem(ELECTRICAL_CORE.get());
-        basicItem(FUSE.get());
         basicItem(CAPACITOR.get());
+        basicItem(MAGNET.get());
     }
 }

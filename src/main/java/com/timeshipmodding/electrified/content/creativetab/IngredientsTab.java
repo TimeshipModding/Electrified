@@ -33,15 +33,18 @@ public class IngredientsTab {
                 pOutput.accept(IRON_SHEET);
                 pOutput.accept(ALUMINIUM_SHEET);
                 pOutput.accept(COPPER_SHEET);
+                pOutput.accept(GOLD_SHEET);
+                pOutput.accept(ALUMINIUM_WIRE_SPOOL);
                 pOutput.accept(COPPER_WIRE_SPOOL);
+                pOutput.accept(GOLD_WIRE_SPOOL);
+                pOutput.accept(FUSE);
                 pOutput.accept(MECHANICAL_CORE);
                 pOutput.accept(ELECTRICAL_CORE);
                 pOutput.accept(BEARING);
                 pOutput.accept(COUPLING);
                 pOutput.accept(GEAR);
-                pOutput.accept(MAGNET);
                 pOutput.accept(SPRING);
                 pOutput.accept(CAPACITOR);
-                pOutput.accept(FUSE);
+                pOutput.accept(MAGNET);
             }).build());
 }

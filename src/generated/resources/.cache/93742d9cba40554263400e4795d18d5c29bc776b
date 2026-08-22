@@ -1,6 +1,7 @@
-// 1.21.1	2026-08-21T16:40:56.7390358	Item Models: electrified
+// 1.21.1	2026-08-22T20:57:47.7811691	Item Models: electrified
 641bbeea03500d0e48804869043c55ee05620ce9 assets/electrified/models/item/aluminium_ingot.json
 cd76c800bf0462b77a77e1e553403c8c6b915a7c assets/electrified/models/item/aluminium_sheet.json
+bf07f550f1af4de5937866d9e271a24a40c8cc6c assets/electrified/models/item/aluminium_wire_spool.json
 5ebc106bc2c405cfaa5a63ff2cebb9e16cb83b4f assets/electrified/models/item/bearing.json
 0373f278373809f66984940797e103fb19e905d7 assets/electrified/models/item/capacitor.json
 d2c20f2fa2e73932848397031372bfdbbd94e7bb assets/electrified/models/item/copper_sheet.json
@@ -9,6 +10,8 @@ d2c20f2fa2e73932848397031372bfdbbd94e7bb assets/electrified/models/item/copper_s
 8a5e4714a1eb3049dbc183e4afc3b84723add967 assets/electrified/models/item/electrical_core.json
 3b154c119d150ba8cf528aac15006f016777220d assets/electrified/models/item/fuse.json
 78f93f028473fc61b65eb495d748aababa4df334 assets/electrified/models/item/gear.json
+6998f619c75ba057bc130cefaaeb3864e2c4cf1d assets/electrified/models/item/gold_sheet.json
+088e012c6327971b5453190e2367e77e8493109e assets/electrified/models/item/gold_wire_spool.json
 af9ddc33ca28d5d72bf040b2bf6797cc249f146a assets/electrified/models/item/iron_sheet.json
 4f411f8d1baaef8f5ea9fe6daaa13d9c93b01d65 assets/electrified/models/item/magnet.json
 c111ada743575a1cd55882c1f3eaf9038f0948b3 assets/electrified/models/item/mechanical_core.json
