@@ -13,7 +13,7 @@
     },
     "facing=south": {
       "model": "electrified:block/power_supply",
-      "x": 180
+      "y": 180
     },
     "facing=up": {
       "model": "electrified:block/power_supply",
