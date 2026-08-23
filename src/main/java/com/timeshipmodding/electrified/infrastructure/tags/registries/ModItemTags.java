@@ -1,4 +1,4 @@
-package com.timeshipmodding.electrified.util.tags.registries;
+package com.timeshipmodding.electrified.infrastructure.tags.registries;
 
 import com.timeshipmodding.electrified.Electrified;
 import net.minecraft.resources.ResourceLocation;

@@ -1,7 +1,7 @@
 package com.timeshipmodding.electrified.datagen.tags;
 
 import com.timeshipmodding.electrified.Electrified;
-import com.timeshipmodding.electrified.util.tags.registries.ModItemTags;
+import com.timeshipmodding.electrified.infrastructure.tags.registries.ModItemTags;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;
 import net.minecraft.data.tags.ItemTagsProvider;

@@ -1,4 +1,4 @@
-package com.timeshipmodding.electrified.event;
+package com.timeshipmodding.electrified.event.registries;
 
 import com.timeshipmodding.electrified.datagen.DataBlockStates;
 import com.timeshipmodding.electrified.datagen.DataItemModels;
@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @EventBusSubscriber
-public class DataGeneration {
+public class ModDataGenerationEvent {
     @SubscribeEvent
     public static void gatherdata(GatherDataEvent event) {
         DataGenerator generator = event.getGenerator();

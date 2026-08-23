@@ -1,6 +1,7 @@
 {
-  "creativemodetab.electrified.ingredients_tab": "Electrified: Ingredients",
-  "creativemodetab.electrified.multiblock_blocks_tab": "Electrified: Multiblock Blocks",
+  "itemGroup.electrified.electrified_tab": "Electrified",
+  "section.electrified.mechanical": "Mechanical Age",
+  "section.electrified.electrical": "Electrical Age",
 
   "block.electrified.aluminium_block": "Block of Aluminium",
   "block.electrified.bauxite_ore": "Bauxite Ore",
